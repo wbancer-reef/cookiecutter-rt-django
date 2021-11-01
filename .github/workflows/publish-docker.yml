@@ -3,7 +3,12 @@ name: RT nginx docker image
 on:
   push:
     branches:
-      - docker-release
+      - 'master'
+      - 'docker-release'
+
+  pull_request:
+    branches:
+      - 'master'
 
 env:
   REGISTRY: ghcr.io
