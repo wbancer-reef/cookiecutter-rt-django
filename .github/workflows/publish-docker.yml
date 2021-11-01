@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: 'nginx-rt'
+  IMAGE_NAME: ${{ github.repository_owner }}/nginx-rt
 
 jobs:
   build-and-push-image:
