@@ -1,4 +1,4 @@
-name: Create and publish an RT nginx docker image
+name: RT nginx docker image
 
 on:
   push:
